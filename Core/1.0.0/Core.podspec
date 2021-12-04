@@ -28,8 +28,8 @@ Pod::Spec.new do |spec|
   spec. frameworks = "Alamofire", "RxSwift"
   spec.source_files = "Core/**/*.{swift}"
   spec.swift_version = "5"
-spec.dependency 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git'
-spec.dependency 'RxSwift', :git => 'https://github.com/ReactiveX/RxSwift.git'
+spec.dependency 'Alamofire'
+spec.dependency 'RxSwift'
 
 
   # This description is used to generate tags and improve search results.
