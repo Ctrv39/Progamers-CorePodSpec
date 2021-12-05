@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec. frameworks = "Alamofire", "RxSwift"
   spec.source_files = "Core/**/*.{swift}"
   spec.swift_version = "5"
-spec.dependency 'Alamofire'
+spec.dependency 'Alamofire', '~> 5.4'
 spec.dependency 'RxSwift'
 
 
