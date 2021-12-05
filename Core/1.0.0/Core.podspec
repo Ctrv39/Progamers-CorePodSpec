@@ -28,9 +28,8 @@ Pod::Spec.new do |spec|
   spec. frameworks = "Alamofire", "RxSwift"
   spec.source_files = "Core/**/*.{swift}"
   spec.swift_version = "5"
-spec.dependency 'Alamofire', '~> 5.4'
-spec.dependency 'RxSwift'
-
+spec.dependency 'Alamofire' , '~> 5.4'
+spec.dependency 'RxSwift' , '~> 6.2'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
