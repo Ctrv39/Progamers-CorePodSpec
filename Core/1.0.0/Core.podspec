@@ -31,6 +31,7 @@ Pod::Spec.new do |spec|
 spec.dependency 'Alamofire' , '~> 5.4'
 spec.dependency 'RxSwift' , '~> 6.2'
 
+
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -147,3 +148,4 @@ spec.dependency 'RxSwift' , '~> 6.2'
   # spec.dependency "JSONKit", "~> 1.4"
 
 end
+
